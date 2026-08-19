@@ -37,6 +37,22 @@ def test_loader_survives_bad_file_and_missing_body(tmp_path):
     assert any("bad.json" in warning for warning in report.warnings)
 
 
+def test_loader_ignores_readme_and_non_chapter_markdown(tmp_path):
+    (tmp_path / "meta.json").write_text(
+        json.dumps([{"id": "01-基础-01", "chapter": "第一章"}], ensure_ascii=False),
+        encoding="utf-8",
+    )
+    (tmp_path / "README.md").write_text("# 说明\n\n这是仓库说明，不属于章节内容。", encoding="utf-8")
+    (tmp_path / "第一章 函数极限与连续.md").write_text(
+        "## 01-基础-01\n题干 $x$\n\nA. 1\nB. 2",
+        encoding="utf-8",
+    )
+    report = DataLoader(tmp_path).load()
+    assert len(report.questions) == 1
+    assert not any("README.md" in warning for warning in report.warnings)
+    assert not any("无法从文件名识别章节编号" in warning for warning in report.warnings)
+
+
 def test_engine_is_reproducible_without_replacement_and_diverse():
     questions = [
         Question(id=f"01-基础-{i:02d}", chapter="第一章", section="基础题", question_type="选择题",
