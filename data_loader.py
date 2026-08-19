@@ -66,6 +66,7 @@ class DataLoader:
             if root.exists() and root.is_dir()
             for pattern in ("*.md", "*.markdown")
             for path in root.rglob(pattern)
+            if self._is_chapter_markdown(path)
         })
         report.json_files = len(json_files)
         report.markdown_files = len(markdown_files)
@@ -179,6 +180,19 @@ class DataLoader:
                     "source_file": str(path),
                 }
         return parsed, warnings
+
+    @staticmethod
+    def _is_chapter_markdown(path: Path) -> bool:
+        name = path.stem
+        if name.lower() == "readme":
+            return False
+        if re.search(r"第\s*\d{1,2}\s*章|第[零〇一二三四五六七八九十两]+章", name):
+            return True
+        if re.search(r"^\d{1,2}(?:[-_ ](?:基础|综合|拓展))?", name):
+            return True
+        if re.search(r"(?:章|矩阵|向量|行列式|函数|极限|积分|概率|统计)", name):
+            return True
+        return False
 
     @staticmethod
     def _chapter_number_from_text(value: str) -> int | None:
