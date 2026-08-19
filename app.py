@@ -42,7 +42,7 @@ def inject_styles() -> None:
           --rule: #d6d1c5;
           --jade: #315e52;
           --jade-dark: #23463d;
-          --cinnabar: #b53b2f;
+          --cinnabar: #5fa8d3;
           --sky: #5fa8d3;
           --sky-soft: rgba(95,168,211,.7);
           --gold: #bd8b36;
@@ -97,16 +97,36 @@ def inject_styles() -> None:
                     background-color: var(--sky) !important;
                     border-color: var(--sky) !important;
                 }
+                [data-testid="stSidebar"] [data-testid="stSlider"] input[type="range"] {
+                    accent-color: var(--sky) !important;
+                }
+                [data-testid="stSidebar"] [data-testid="stSliderTickBar"] {
+                    color: var(--sky) !important;
+                    opacity: 1 !important;
+                    transition: none !important;
+                }
                 [data-testid="stSidebar"] [data-testid="stSlider"] [data-testid*="TickBar"] {
                     visibility: visible !important;
                     opacity: 1 !important;
                 }
+                [data-testid="stSidebar"] [data-testid="stMultiSelect"] [data-baseweb="tag"],
                 [data-testid="stSidebar"] [data-baseweb="tag"] {
                     background-color: var(--sky-soft) !important;
                     color: #173f57 !important;
                 }
+                [data-testid="stSidebar"] [data-testid="stMultiSelect"] [data-baseweb="tag"] svg,
                 [data-testid="stSidebar"] [data-baseweb="tag"] svg {
                     fill: #173f57 !important;
+                }
+                [data-testid="stSidebar"] [data-testid="stCheckbox"] [aria-checked="true"],
+                [data-testid="stSidebar"] [data-testid="stCheckbox"] [data-checked="true"],
+                [data-testid="stSidebar"] [data-testid="stCheckbox"] input:checked + div {
+                    background-color: var(--sky) !important;
+                    border-color: var(--sky) !important;
+                }
+                [data-testid="stSidebar"] [data-testid="stCheckbox"] [aria-checked="true"] > div,
+                [data-testid="stSidebar"] [data-testid="stCheckbox"] input:checked + div > div {
+                    background-color: var(--sky) !important;
                 }
 
         .brand-lockup { padding: .5rem 0 1rem; border-bottom: 2px solid var(--ink); }
@@ -232,9 +252,20 @@ def inject_styles() -> None:
           min-height: 2.65rem; border-radius:2px; border:1px solid #aaa397; font-weight:800;
           transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
         }
+                [data-testid="stSidebar"] .stButton > button {
+                    width: 100%;
+                    height: 2.65rem;
+                    min-height: 2.65rem;
+                    padding: .35rem .45rem;
+                    font-size: .78rem;
+                    line-height: 1.1;
+                    white-space: normal;
+                    overflow-wrap: anywhere;
+                    text-align: center;
+                }
         .stButton > button:hover, .stDownloadButton > button:hover { transform:translateY(-1px); box-shadow:0 6px 16px rgba(34,48,41,.1); }
         .stButton > button[kind="primary"] { background:var(--cinnabar); border-color:var(--cinnabar); color:white; }
-        .stButton > button[kind="primary"]:hover { background:#992f26; border-color:#992f26; }
+        .stButton > button[kind="primary"]:hover { background:var(--sky); border-color:var(--sky); }
         [data-baseweb="select"] > div, [data-baseweb="input"] > div { border-radius:2px; background:#fffdf8; }
         div[data-testid="stAlert"] { border-radius:2px; }
         [data-testid="stCaptionContainer"] { color:var(--muted); }
@@ -462,20 +493,22 @@ with st.sidebar:
     previous = st.session_state.get("selected_chapters", chapters)
     st.session_state.selected_chapters = [chapter for chapter in previous if chapter in chapters]
     math_two = math_two_chapters(chapters, subjects)
-    preset_a, preset_b = st.columns(2)
-    if preset_a.button("数学一", use_container_width=True):
-        st.session_state.selected_chapters = chapters
-    if preset_b.button("数学二", use_container_width=True):
-        st.session_state.selected_chapters = math_two
-    range_a, range_b = st.columns(2)
-    if range_a.button("清空范围", use_container_width=True):
-        st.session_state.selected_chapters = []
-    subject_buttons = st.columns(2)
-    for index, (subject, items) in enumerate(subjects.items()):
-        with subject_buttons[index % 2]:
-            label = "概率论" if subject == "概率统计" else subject
-            if st.button(f"只选 {label} · {len(items)} 章", key=f"only_{index}", use_container_width=True):
+    left_labels = ("高等数学", "线性代数", "概率统计")
+    right_actions = ("数学一", "数学二", "清空范围")
+    for index, (subject, action) in enumerate(zip(left_labels, right_actions)):
+        left_button, right_button = st.columns(2)
+        items = subjects[subject]
+        label = "概率论" if subject == "概率统计" else subject
+        with left_button:
+            if st.button(f"只含 {label} · {len(items)} 章", key=f"only_{index}", use_container_width=True):
                 st.session_state.selected_chapters = items
+        with right_button:
+            if st.button(action, use_container_width=True, key=f"range_{index}"):
+                st.session_state.selected_chapters = {
+                    "数学一": chapters,
+                    "数学二": math_two,
+                    "清空范围": [],
+                }[action]
     selected_chapters = st.multiselect(
         "章节微调",
         chapters,
