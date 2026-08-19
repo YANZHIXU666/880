@@ -42,7 +42,7 @@ def inject_styles() -> None:
           --rule: #d6d1c5;
           --jade: #315e52;
           --jade-dark: #23463d;
-          --cinnabar: #5fa8d3;
+          --cinnabar: #b53b2f;
           --sky: #5fa8d3;
           --sky-soft: rgba(95,168,211,.7);
           --gold: #bd8b36;
@@ -265,7 +265,7 @@ def inject_styles() -> None:
                 }
         .stButton > button:hover, .stDownloadButton > button:hover { transform:translateY(-1px); box-shadow:0 6px 16px rgba(34,48,41,.1); }
         .stButton > button[kind="primary"] { background:var(--cinnabar); border-color:var(--cinnabar); color:white; }
-        .stButton > button[kind="primary"]:hover { background:var(--sky); border-color:var(--sky); }
+        .stButton > button[kind="primary"]:hover { background:#992f26; border-color:#992f26; }
         [data-baseweb="select"] > div, [data-baseweb="input"] > div { border-radius:2px; background:#fffdf8; }
         div[data-testid="stAlert"] { border-radius:2px; }
         [data-testid="stCaptionContainer"] { color:var(--muted); }
