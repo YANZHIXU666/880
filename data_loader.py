@@ -58,7 +58,11 @@ class DataLoader:
             report.warnings.append(f"数据路径不是目录：{self.data_dir}")
             return report
 
-        json_files = sorted(self.data_dir.rglob("*.json"))
+        json_files = sorted(
+            path
+            for path in self.data_dir.rglob("*.json")
+            if path.name != "devcontainer.json"
+        )
         markdown_roots = [self.data_dir, *self.content_dirs]
         markdown_files = sorted({
             path
