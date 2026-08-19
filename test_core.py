@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-from app import unique_chapters
+from app import math_two_chapters, unique_chapters
 from data_loader import DataLoader
 from engine import PaperEngine, PaperRequest
 from models import Question, UNCLASSIFIED_CHAPTER
@@ -61,6 +61,16 @@ def test_unique_chapters_excludes_unclassified_fallback():
         Question(id="14-基础-02", chapter="第十四章 相似矩阵", section="基础题", question_type="选择题"),
     ]
     assert unique_chapters(questions) == ["第一章", "第十四章 相似矩阵"]
+
+
+def test_math_two_excludes_math_one_only_chapters():
+    chapters = ["第一章", "第四章 空间解析几何（仅数学一）", "第十章 行列式"]
+    subjects = {
+        "高等数学": chapters[:2],
+        "线性代数": chapters[2:],
+        "概率统计": [],
+    }
+    assert math_two_chapters(chapters, subjects) == ["第一章", "第十章 行列式"]
 
 
 def test_engine_is_reproducible_without_replacement_and_diverse():

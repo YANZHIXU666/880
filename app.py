@@ -43,6 +43,8 @@ def inject_styles() -> None:
           --jade: #315e52;
           --jade-dark: #23463d;
           --cinnabar: #b53b2f;
+          --sky: #5fa8d3;
+          --sky-soft: rgba(95,168,211,.7);
           --gold: #bd8b36;
         }
 
@@ -80,7 +82,32 @@ def inject_styles() -> None:
           letter-spacing: .04em;
         }
         [data-testid="stSidebar"] label { color: #53605a; }
-        [data-testid="stSidebar"] [data-baseweb="slider"] { margin-top: -.25rem; }
+                [data-testid="stSidebar"] [data-testid="stSlider"] {
+                    min-height: 3.9rem;
+                    overflow: visible;
+                    accent-color: var(--sky);
+                }
+                [data-testid="stSidebar"] [data-testid="stSlider"] [data-baseweb="slider"] {
+                    min-height: 2.55rem;
+                    margin: .12rem 0 .42rem;
+                    overflow: visible;
+                }
+                [data-testid="stSidebar"] [data-testid="stSlider"] [data-baseweb="slider"] > div,
+                [data-testid="stSidebar"] [data-testid="stSlider"] [data-baseweb="slider"] [role="slider"] {
+                    background-color: var(--sky) !important;
+                    border-color: var(--sky) !important;
+                }
+                [data-testid="stSidebar"] [data-testid="stSlider"] [data-testid*="TickBar"] {
+                    visibility: visible !important;
+                    opacity: 1 !important;
+                }
+                [data-testid="stSidebar"] [data-baseweb="tag"] {
+                    background-color: var(--sky-soft) !important;
+                    color: #173f57 !important;
+                }
+                [data-testid="stSidebar"] [data-baseweb="tag"] svg {
+                    fill: #173f57 !important;
+                }
 
         .brand-lockup { padding: .5rem 0 1rem; border-bottom: 2px solid var(--ink); }
         .brand-kicker { color: var(--cinnabar); font-size: .68rem; font-weight: 800; letter-spacing: .2em; }
@@ -109,7 +136,7 @@ def inject_styles() -> None:
           font: 900 clamp(2.45rem, 6vw, 5.25rem)/.98 "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
           letter-spacing: -.065em;
         }
-        .masthead h1 em { color: var(--cinnabar); font-style: normal; }
+        .masthead h1 em { color: var(--sky); font-style: normal; }
         .masthead p { max-width: 640px; margin: 1rem 0 0; color: var(--ink-soft); line-height: 1.8; }
         .seal {
           width: 96px; height: 96px; display: grid; place-items: center;
@@ -267,6 +294,11 @@ def subject_chapters(chapters: list[str], questions: list[Question]) -> dict[str
         "线性代数": [c for c in chapters if 10 <= number_by_chapter[c] <= 15],
         "概率统计": [c for c in chapters if 16 <= number_by_chapter[c]],
     }
+
+
+def math_two_chapters(chapters: list[str], subjects: dict[str, list[str]]) -> list[str]:
+    eligible = [*subjects["高等数学"], *subjects["线性代数"]]
+    return [chapter for chapter in chapters if chapter in eligible and "仅数学一" not in chapter]
 
 
 def render_question(question: Question, number: int, ai_generated: bool = False) -> None:
@@ -429,14 +461,21 @@ with st.sidebar:
     st.markdown("### 02　复习范围")
     previous = st.session_state.get("selected_chapters", chapters)
     st.session_state.selected_chapters = [chapter for chapter in previous if chapter in chapters]
-    quick_a, quick_b = st.columns(2)
-    if quick_a.button("全科 23 章", use_container_width=True):
+    math_two = math_two_chapters(chapters, subjects)
+    preset_a, preset_b = st.columns(2)
+    if preset_a.button("数学一", use_container_width=True):
         st.session_state.selected_chapters = chapters
-    if quick_b.button("清空范围", use_container_width=True):
+    if preset_b.button("数学二", use_container_width=True):
+        st.session_state.selected_chapters = math_two
+    range_a, range_b = st.columns(2)
+    if range_a.button("清空范围", use_container_width=True):
         st.session_state.selected_chapters = []
+    subject_buttons = st.columns(2)
     for index, (subject, items) in enumerate(subjects.items()):
-        if st.button(f"只选 {subject} · {len(items)} 章", key=f"only_{index}", use_container_width=True):
-            st.session_state.selected_chapters = items
+        with subject_buttons[index % 2]:
+            label = "概率论" if subject == "概率统计" else subject
+            if st.button(f"只选 {label} · {len(items)} 章", key=f"only_{index}", use_container_width=True):
+                st.session_state.selected_chapters = items
     selected_chapters = st.multiselect(
         "章节微调",
         chapters,
