@@ -1,0 +1,163 @@
+[
+  {
+    "id": "20-基础-01",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "Lindeberg–Lévy或De Moivre–Laplace中心极限定理",
+      "大数定律的适用条件",
+      "中心极限定理的标准化与近似概率"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "标准化分母是和的标准差而非单个变量标准差；事件不等式两端也必须同步中心化和缩放。",
+    "tags": [
+      "高频真题变式",
+      "经典套路"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "20-基础-02",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "Lindeberg–Lévy或De Moivre–Laplace中心极限定理",
+      "大数定律的适用条件",
+      "中心极限定理的标准化与近似概率"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "标准化分母是和的标准差而非单个变量标准差；事件不等式两端也必须同步中心化和缩放。",
+    "tags": [
+      "高频真题变式",
+      "经典套路"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "20-基础-03",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "独立同分布序列的均值收敛与极限定理选择",
+      "大数定律的适用条件",
+      "中心极限定理的标准化与近似概率"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "有限二阶矩可支持方差控制与中心极限定理，但题目若只问依概率收敛不必擅自加强为几乎处处收敛；含绝对值时还要按零点分段并核对符号，开方或模长化简不能漏绝对值。",
+    "tags": [
+      "高频真题变式",
+      "经典套路"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "20-基础-04",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "Lindeberg–Lévy或De Moivre–Laplace中心极限定理",
+      "Chebyshev不等式的概率下界估计"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "标准化分母是和的标准差而非单个变量标准差；事件不等式两端也必须同步中心化和缩放。",
+    "tags": [
+      "高频真题变式",
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "20-基础-05",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "Chebyshev不等式的概率下界估计",
+      "大数定律的适用条件",
+      "中心极限定理的标准化与近似概率"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "不等式控制的是偏离均值至少给定距离的概率；求区间内概率时要先转成对立事件并确认中心确为期望；含绝对值时还要按零点分段并核对符号，开方或模长化简不能漏绝对值。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "20-基础-06",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "Chebyshev不等式的概率下界估计",
+      "大数定律的适用条件",
+      "中心极限定理的标准化与近似概率"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "不等式控制的是偏离均值至少给定距离的概率；求区间内概率时要先转成对立事件并确认中心确为期望；含绝对值时还要按零点分段并核对符号，开方或模长化简不能漏绝对值。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "20-基础-07",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "Lindeberg–Lévy或De Moivre–Laplace中心极限定理",
+      "大数定律的适用条件",
+      "中心极限定理的标准化与近似概率"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "标准化分母是和的标准差而非单个变量标准差；事件不等式两端也必须同步中心化和缩放；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "高频真题变式",
+      "经典套路"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "20-基础-08",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "大数定律的适用条件",
+      "中心极限定理的标准化与近似概率"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "近似前要明确使用的极限定理、中心化项和标准差；二项分布正态近似还要区分是否需要连续性修正。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "20-基础-09",
+    "chapter": "第二十章 大数定律与中心极限定理",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "Chebyshev或Khintchine大数定律",
+      "大数定律的适用条件",
+      "中心极限定理的标准化与近似概率"
+    ],
+    "dimension": "逻辑证明",
+    "pitfall_analysis": "要核对独立同分布或方差控制条件；依概率收敛不是逐点收敛，也不能直接当作期望收敛；含绝对值时还要按零点分段并核对符号，开方或模长化简不能漏绝对值。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 4
+  }
+]

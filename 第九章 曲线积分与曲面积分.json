@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "09-基础-01",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-02",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负。",
+    "tags": [
+      "计算量大",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-03",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负。",
+    "tags": [
+      "计算量大",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-04",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-05",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负。",
+    "tags": [
+      "计算量大",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-06",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "第二类曲线积分的参数化与方向处理"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-07",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-08",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-09",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负；含绝对值时还要按零点分段并核对符号，开方或模长化简不能漏绝对值。",
+    "tags": [
+      "计算量大",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-10",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "计算量大",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-11",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-12",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-13",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "使用积分公式前必须检查曲线曲面是否闭合、光滑及取向；补面后要减去补面贡献并保持方向一致。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-14",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-15",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-16",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-17",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-18",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-19",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-20",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-21",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-22",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-23",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-24",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "计算量大",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-25",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-26",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-27",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-28",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-基础-29",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "使用积分公式前必须检查曲线曲面是否闭合、光滑及取向；补面后要减去补面贡献并保持方向一致。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "09-综合-01",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "第二类曲线积分的参数化与方向处理"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-02",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；含绝对值时还要按零点分段并核对符号，开方或模长化简不能漏绝对值。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-03",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-04",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-05",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-06",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-07",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-08",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "使用积分公式前必须检查曲线曲面是否闭合、光滑及取向；补面后要减去补面贡献并保持方向一致。",
+    "tags": [
+      "高频真题变式",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-09",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-10",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "Stokes公式与边界方向右手规则"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "压轴题型",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-11",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "第一类或第二类曲面积分的投影计算"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "计算量大",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-12",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-13",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-14",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-15",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；含绝对值时还要按零点分段并核对符号，开方或模长化简不能漏绝对值。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-16",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-17",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；含参数步骤若作除法或开方，要把使该因子为零的临界值另行讨论。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-18",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；无穷区间或瑕点必须按极限定义拆开，不能把发散段相互抵消。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-19",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "逻辑证明",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；分段连接处需分别代入两侧表达式，不能用单侧公式替代双侧判断。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 5
+  },
+  {
+    "id": "09-综合-20",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-21",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负。",
+    "tags": [
+      "计算量大",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-22",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "使用积分公式前必须检查曲线曲面是否闭合、光滑及取向；补面后要减去补面贡献并保持方向一致。",
+    "tags": [
+      "高频真题变式",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-23",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "计算量大",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-24",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "使用积分公式前必须检查曲线曲面是否闭合、光滑及取向；补面后要减去补面贡献并保持方向一致。",
+    "tags": [
+      "高频真题变式",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-25",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "计算量大",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-26",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-27",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-28",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "第二类曲线积分的参数化与方向处理"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复；分段连接处需分别代入两侧表达式，不能用单侧公式替代双侧判断。",
+    "tags": [
+      "经典套路",
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-29",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-30",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-31",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-32",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-33",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-34",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "经典套路",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-35",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类或第二类曲面积分的投影计算",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "投影到坐标面后要乘面积伸缩因子；第二类曲面积分还要根据法向取向确定正负。",
+    "tags": [
+      "计算量大",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-综合-36",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第一类曲线积分的参数化与弧长微元",
+      "第二类曲线积分的参数化与方向处理"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "参数化后 $ds$ 是速度向量模乘 $dt$，不能把它当作 $dx$；参数区间还要完整覆盖曲线且不重复。",
+    "tags": [
+      "经典套路",
+      "易错概念",
+      "高频真题变式",
+      "计算量大"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "09-拓展-01",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "拓展题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致。",
+    "tags": [
+      "易错概念",
+      "压轴题型",
+      "计算量大"
+    ],
+    "recommend_weight": 5
+  },
+  {
+    "id": "09-拓展-02",
+    "chapter": "第九章 曲线积分与曲面积分",
+    "section": "拓展题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "第二类曲线积分的参数化与方向处理",
+      "曲线积分或曲面积分的参数化计算",
+      "Green、Gauss、Stokes公式的条件核验与降维"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "反向会使第二类曲线积分变号；参数上下限应与题设方向一致；根式有理化或平方前须控制定义域与正负，避免引入增根。",
+    "tags": [
+      "易错概念",
+      "压轴题型",
+      "计算量大"
+    ],
+    "recommend_weight": 5
+  }
+]

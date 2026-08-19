@@ -1,0 +1,426 @@
+[
+  {
+    "id": "16-基础-01",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-02",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-03",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "概念辨析",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 2
+  },
+  {
+    "id": "16-基础-04",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件独立性的乘法定义及推广"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-05",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件独立性的乘法定义及推广"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-06",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "概念辨析",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 2
+  },
+  {
+    "id": "16-基础-07",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "概念辨析",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 2
+  },
+  {
+    "id": "16-基础-08",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-09",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "重复试验或抽样模型的事件计数"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "综合建模"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-10",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-11",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-12",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "独立与互斥不能混淆；条件概率的分母必须为正，复杂事件宜先写集合关系再计算。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-13",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "事件独立性的乘法定义及推广",
+      "重复试验或抽样模型的事件计数"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "两两独立不等于相互独立；互斥的非零概率事件不可能独立。",
+    "tags": [
+      "易错概念",
+      "综合建模",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-14",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件独立性的乘法定义及推广"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "易错概念"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-基础-15",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "基础题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "事件独立性的乘法定义及推广",
+      "重复试验或抽样模型的事件计数"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "两两独立不等于相互独立；互斥的非零概率事件不可能独立。",
+    "tags": [
+      "易错概念",
+      "综合建模",
+      "经典套路"
+    ],
+    "recommend_weight": 3
+  },
+  {
+    "id": "16-综合-01",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "重复试验或抽样模型的事件计数",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "先判断有无放回及次序是否区分；“至少一次”通常用对立事件更稳，避免漏计交叠情形。",
+    "tags": [
+      "综合建模",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "16-综合-02",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "选择题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "16-综合-03",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "事件独立性的乘法定义及推广",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "两两独立不等于相互独立；互斥的非零概率事件不可能独立。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "16-综合-04",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "条件概率乘法公式与事件分解",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "条件事件必须放在分母且概率非零；多阶段试验宜画树状图，避免把条件概率误当无条件概率。",
+    "tags": [
+      "经典套路",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "16-综合-05",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "事件独立性的乘法定义及推广",
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "两两独立不等于相互独立；互斥的非零概率事件不可能独立。",
+    "tags": [
+      "易错概念",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "16-综合-06",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "独立与互斥不能混淆；条件概率的分母必须为正，复杂事件宜先写集合关系再计算。",
+    "tags": [
+      "高频真题变式",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "16-综合-07",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "填空题",
+    "core_knowledge": [
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "独立与互斥不能混淆；条件概率的分母必须为正，复杂事件宜先写集合关系再计算。",
+    "tags": [
+      "高频真题变式",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "16-综合-08",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "事件关系与概率公式的精确运用",
+      "条件概率、全概率与Bayes公式"
+    ],
+    "dimension": "技巧计算",
+    "pitfall_analysis": "独立与互斥不能混淆；条件概率的分母必须为正，复杂事件宜先写集合关系再计算。",
+    "tags": [
+      "高频真题变式",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  },
+  {
+    "id": "16-综合-09",
+    "chapter": "第十六章 随机事件及其概率",
+    "section": "综合题",
+    "question_type": "解答题",
+    "core_knowledge": [
+      "事件独立性的乘法定义及推广",
+      "重复试验或抽样模型的事件计数"
+    ],
+    "dimension": "综合建模",
+    "pitfall_analysis": "两两独立不等于相互独立；互斥的非零概率事件不可能独立。",
+    "tags": [
+      "易错概念",
+      "综合建模",
+      "高频真题变式"
+    ],
+    "recommend_weight": 4
+  }
+]
