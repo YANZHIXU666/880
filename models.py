@@ -4,10 +4,13 @@ from dataclasses import asdict, dataclass, field
 from typing import Any
 
 
+UNCLASSIFIED_CHAPTER = "未分类章节"
+
+
 @dataclass(slots=True)
 class Question:
     id: str
-    chapter: str = "未分类章节"
+    chapter: str = UNCLASSIFIED_CHAPTER
     section: str = "基础题"
     question_type: str = "解答题"
     core_knowledge: list[str] = field(default_factory=list)
@@ -34,7 +37,7 @@ class Question:
         question_id = str(raw.get("id") or raw.get("question_id") or "").strip()
         return cls(
             id=question_id,
-            chapter=str(raw.get("chapter") or "未分类章节").strip(),
+            chapter=str(raw.get("chapter") or UNCLASSIFIED_CHAPTER).strip(),
             section=str(raw.get("section") or raw.get("difficulty") or "基础题").strip(),
             question_type=str(raw.get("question_type") or raw.get("type") or "解答题").strip(),
             core_knowledge=as_list(raw.get("core_knowledge") or raw.get("knowledge_points")),

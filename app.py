@@ -12,7 +12,7 @@ from data_loader import DataLoader
 from deepseek_client import DeepSeekClient, DeepSeekError
 from engine import PaperEngine, PaperRequest
 from history import decode_seen, encode_seen
-from models import Paper, Question
+from models import Paper, Question, UNCLASSIFIED_CHAPTER
 from pdf_exporter import PDFExportError, PDFExporter
 
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -250,7 +250,10 @@ def chapter_number(question: Question) -> int:
 def unique_chapters(questions: list[Question]) -> list[str]:
     order: dict[str, int] = {}
     for question in questions:
-        order[question.chapter] = min(order.get(question.chapter, 999), chapter_number(question))
+        chapter = (question.chapter or "").strip()
+        if not chapter or chapter == UNCLASSIFIED_CHAPTER:
+            continue
+        order[chapter] = min(order.get(chapter, 999), chapter_number(question))
     return sorted(order, key=lambda chapter: (order[chapter], chapter))
 
 

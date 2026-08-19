@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import json
 
+from app import unique_chapters
 from data_loader import DataLoader
 from engine import PaperEngine, PaperRequest
-from models import Question
+from models import Question, UNCLASSIFIED_CHAPTER
 from pdf_exporter import PDFExporter
 
 
@@ -51,6 +52,15 @@ def test_loader_ignores_readme_and_non_chapter_markdown(tmp_path):
     assert len(report.questions) == 1
     assert not any("README.md" in warning for warning in report.warnings)
     assert not any("无法从文件名识别章节编号" in warning for warning in report.warnings)
+
+
+def test_unique_chapters_excludes_unclassified_fallback():
+    questions = [
+        Question(id="14-基础-01", chapter=UNCLASSIFIED_CHAPTER, section="基础题", question_type="选择题"),
+        Question(id="01-基础-01", chapter="第一章", section="基础题", question_type="选择题"),
+        Question(id="14-基础-02", chapter="第十四章 相似矩阵", section="基础题", question_type="选择题"),
+    ]
+    assert unique_chapters(questions) == ["第一章", "第十四章 相似矩阵"]
 
 
 def test_engine_is_reproducible_without_replacement_and_diverse():
